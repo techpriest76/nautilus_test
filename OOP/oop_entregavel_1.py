@@ -52,15 +52,16 @@ class AUVS:
 
 ################## SETUP ################################
 
-######## VEHICLES CHARACTERISTICS #######################
+#vehicles characteristics
 
 auv1=vehicle('BrHUE','               MTi-G-AHRS, Bii-7141             ',2020,'LiPo 5,2K mAh 4S','6','Progress and Fabrication of UFRJ Nautilus’ AUV: Lua') 
 auv2=vehicle('Lua  ','DVL A50, BAR30, MTi-G-AHRS, 3DM-CX5-10, Bii-7141',2022,'LiPo 10k mAh 4S ','8','Design and Implementation of UFRJ Nautilus’ AUV: BrHUE 2020')
 
-################ LIST OF VEHICLES #######################
+#list of vehicles 
+
 auvs=[auv1,auv2]
 
-################## VEHICLE POPULATION DEFINITION ########
+#vehicle population definition
 table_d=AUVS(auvs)
 
 ################# DISPLAY ##############################
