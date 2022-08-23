@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam command="load" file="$(find pkg)/param/planet_sim.yaml"/>
+    <node name="test_node" pkg="pkg" type="star_system.py" output="screen"/>
+</launch>

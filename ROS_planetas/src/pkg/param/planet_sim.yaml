@@ -1,0 +1,13 @@
+celestial_bodies:
+  sun:
+    radius: 0
+    vel: 1
+
+  mars:
+    radius: 4 
+    vel: 2
+    
+
+  phobos:
+    radius: 1
+    vel: 4
